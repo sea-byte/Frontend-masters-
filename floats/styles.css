@@ -1,0 +1,19 @@
+.floatleft{
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+article{
+    width:30em;
+    border:3px solid red;
+    margin:0 auto;
+}
+    .floatright{
+      float:right;
+    }
+    article:after{
+        content: "";
+        display: table;
+        clear: both;
+
+    }
